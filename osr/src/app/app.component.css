@@ -111,4 +111,25 @@ h4 {
 
 .footer {
     width: 100%;
+    background: #3D444A;
+    color: #fff;
+    padding: 3em 0;
+    border-top-right-radius: 40px;
+    transform: skewY(2deg);
+}
+
+.in-footer-container {
+    transform: skewY(-2deg);
+}
+
+.map {
+    background: goldenrod;
+    width: 100%;
+    padding: 5px;
+}
+
+.pay-methods {
+    background: rgb(163, 145, 100);
+    width: 100%;
+    padding: 5px;
 }
