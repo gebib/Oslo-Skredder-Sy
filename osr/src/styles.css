@@ -1,17 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
 @import"~bootstrap/dist/css/bootstrap.css";
 @import url('//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800');
-body{
+body {
     margin: 0px;
     /* background-image: url('assets/bg.jpg'); */
-    font-family: 'Montserrat','Impact','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    font-family: 'Montserrat', 'Impact', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
     /* display: flex; */
-    background-color: rgb(95, 95, 95);
     justify-content: center;
 }
-.container{
+
+.container {
     display: flex;
 }
-
-
- 
