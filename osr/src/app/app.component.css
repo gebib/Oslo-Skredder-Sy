@@ -1,0 +1,114 @@
+/*mobile*/
+
+.container {
+    padding: 5px;
+    background-color: rgb(0, 13, 199);
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section1 {
+    padding: 5px;
+    background-color: lightcoral;
+}
+
+.section2 {
+    padding: 5px;
+    background-color: rgb(198, 218, 212);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#top-window-image,
+#logo-img {
+    width: 100%;
+}
+
+#abdi-image {
+    width: 100%;
+    border-radius: 40px 0% 0% 0%;
+}
+
+.abdi-card {
+    border-radius: 40px 0% 0% 0%;
+}
+
+#muca-image {
+    width: 100%;
+}
+
+p {
+    font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 1.2em;
+}
+
+
+/* blue container */
+
+.blue-container {
+    padding: 5px;
+    background: #3E8FFC;
+    color: blue;
+    border-top-left-radius: 40px;
+    transform: skewY(-2deg);
+}
+
+.blue-container .in-skew-container {
+    transform: skewY(2deg);
+}
+
+
+/* /////////////////// */
+
+.blue-container:before {
+    content: " ";
+    width: 40px;
+    height: 40px;
+    background: #00c2ff;
+    position: absolute;
+    top: -39px;
+    right: 0;
+    z-index: -2;
+}
+
+.blue-container:after {
+    content: " ";
+    width: 80px;
+    height: 80px;
+    background-color: rgb(196, 11, 11);
+    top: -80px;
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+
+/* end blue container */
+
+.section3 {
+    padding: 5px;
+    background-color: rgb(43, 122, 99);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#panel-image {
+    width: 100%;
+    margin-top: 15px;
+}
+
+#service-image {
+    width: 100%;
+    /* margin-top: 15px; */
+}
+
+.footer {
+    width: 100%;
+}
