@@ -1,5 +1,10 @@
-.container {
+.outer-container{
     width: 50%;
+    background-color: white;
+    margin: 0 auto;
+    min-width: 260px;
+}
+.container {
     margin: 0 auto;
     padding: 0px;
     min-width: 260px;
@@ -14,6 +19,9 @@
 #top-window-image,
 #logo-img {
     width: 100%;
+}
+#top-window-image{
+    border-radius: 0px 0px 40px 40px;
 }
 
 #abdi-image {

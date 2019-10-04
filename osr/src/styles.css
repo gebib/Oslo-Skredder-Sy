@@ -4,10 +4,11 @@
 @import url('//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800');
 body {
     margin: 0px;
-    /* background-image: url('assets/bg.jpg'); */
+    background-image: url('assets/bg.jpg');
     font-family: 'Montserrat', 'Impact', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
     /* display: flex; */
     justify-content: center;
+    background-attachment: fixed;
 }
 
 .container {
