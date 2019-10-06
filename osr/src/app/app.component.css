@@ -1,14 +1,22 @@
+
+@media all and (max-width: 1050px) {
+    .outer-container{
+        width: 100%px;
+        margin: 0 auto;
+        min-width: 260px;
+        background-color: white;
+    }
+  }
+
+@media all and (min-width: 800px){
 .outer-container{
     width: 50%;
     background-color: white;
     margin: 0 auto;
     min-width: 260px;
+ }
 }
-.container {
-    margin: 0 auto;
-    padding: 0px;
-    min-width: 260px;
-}
+
 
 .section2 {
     text-align: center;
